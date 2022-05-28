@@ -8,4 +8,6 @@ Priority Based Decision Support System.
 - Clone this repository by
 - Download the repository
 - Double click on index.html
-- To run the Priority Based Decision Support System, type streamlit run app.py 
+- To run the Priority Based Decision Support System, 
+- - cd streamlit
+- - streamlit run app.py
