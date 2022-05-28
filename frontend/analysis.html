@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploratory Data Analysis</title>
+    <link rel = "icon" href='img/home.png' style="border-radius: 5px;"
+        type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="slider">
+      <div class="slide active">
+          <h1 align:'center' style="text-align:center;">Overview</h1>          
+        <img src="./img/img.png" style="object-fit: contain;"alt="">
+        <div class="info"> 
+          <p align:'center' style="text-align:center;">
+            <ul>
+              <li>Focus on determining the relationship between various automotive industry related parameters</li>
+              <li>Attempting to gather useful information and draw conclusions</li>
+            </ul>
+          </p>        
+        </div>
+      </div>
+      
+      <div class="slide">
+        <h1>Number of Cars by Make</h1>
+        <img src="./Images/numcars_by_make_wo.png" alt="Number of Cars by Body Type">
+        <div class="info">          
+          <p>
+            <ul>
+              <li>Maruti Suzuki makes the most cars followed by Hyundai, Mahindra, Tata and Toyota.</li>
+              <li>Most of the companies which did not come in this graph are Lamborghini, Posche, Buggati and Aston Martin. 
+                These cars are luxury cars which have less production worldwide</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <h1>Number of Cars by Fuel Type</h1>
+        <img src="./Images/numcars_by_fueltype_wo.png" style="object-fit: contain;" alt="">
+        <div class="info">
+          <p>
+            <ul>
+              <li>Most cars in this dataset run on Petrol and Diesel.</li>
+               <li>Other fuel types like CNG, CNG+Petrol seem to lagging behind by a huge margin.</li>
+               <li>It is observed that people have started to positively consider electric cars with time.</li>
+               <li>Considering the fact that this data is from India/Asia region, one would think that people prefer CNG over 
+                 Petrol/Diesel due to rising costs. This only means that either this data is not recent or that people are still being 
+                 slightly conservative about the fuel type.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <h1>Number of Cars by Type</h1>
+          <img src="./Images/numcars_by_type_wo.png" style="object-fit: contain;" alt="">
+          <div class="info" >
+            <p style="font-size: 0.5em;">
+              <ul>
+                <li> We can see from the graph that most cars on the roads are manual, but also that Automatic cars are strong contenders. </li>
+                <li> With rise of AI and ML, companies are increasingly adopting automation in their models.</li>
+                <li> AMT, DCT and CVT stand for Automated Manual Transmission, Dual-Clutch Transmission and Continuously Variable 
+                  Transmission respectively. Driving types such as AMT, DCT and CVT indeed have certain advantages which give smooth 
+                  driving experience, but it seems either not many people are aware of these types or that since they are on the 
+                  expensive side, not many can afford it.</li>
+                <li>It also might be that we need to analyse more data in order to form conclusions about people 
+                  prefering Manual and Automatic cars over AMT, DCT and CVT</li>
+              </ul>
+            </p>
+          </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Fuel System</h1>
+        <img src="./Images/numcars_by_fuelsystem_wo.png" alt="Number of Cars by Fuel System">
+        <div class="info">
+          <h2>Number of Cars by Fuel System</h2>
+          <p>
+            <ul>
+              <li>Almost 100% of the cars in this dataset use Injection Fuel System.</li>
+              <li>Close to nil cars use PGM - Fi which stands for ProGraMmed Fuel Injection.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Airbags</h1>
+        <img src="./Images/numcars_by_airbags_wo.png" alt="Number of Cars by Airbags">
+        <div class="info">
+          <h2>Number of Cars by Airbags</h2>
+          <p>
+            <ul>
+              <li>From the given data, most cars do have airbags.</li>
+              <li>Only about 1/7th of the cars do not have airbags.</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Number of Airbags</h1>
+        <img src="./Images/numcars_by_numairbags_wo.png" alt="Number of Cars by Number of Airbags">
+        <div class="info">
+          <h2>Number of Cars by Number of Airbags</h2>
+          <p>
+            <ul>
+              <li>Most of the cars which have Airbags have 2 Airbags, followed by 6 Airbags but by a large margin.</li>
+              <li>Least number of cars have 5 or 14 Airbags.</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Drivetrain</h1>
+        <img src="./Images/numcars_by_drivetrain_wo.png" alt="Number of Cars by Drivetrain">
+        <div class="info">
+          <h2>Number of Cars by Drivetrain</h2>
+          <p>
+            <ul>
+              <li>Most popular Drivetrain specification is FWD (Front Wheel Drive), followed by AWD(All Wheel Drive) and 
+                RWD (Rear Wheel Drive).</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Seating Capacity</h1>
+        <img src="./Images/numcars_by_seatingcapacity_wo.png" alt="Number of Cars by Seating Capacity">
+        <div class="info">
+          <h2>Number of Cars by Seating Capacity</h2>
+          <p>
+            <ul>
+              <li>Most sought out cars are 5 seater cars.</li> 
+              <li>7 seater and 4 seater cars follow but by a large margin.</li>                           
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Cylinder</h1>
+        <img src="./Images/numcars_by_cylinder_wo.png" alt="Number of Cars by Cylinder">
+        <div class="info">
+          <h2>Number of Cars by Cylinder</h2>
+          <p>
+            <ul>
+              <li>Slightly over 2/3rd of the cars have 4 cylinders.</li> 
+              <li>Only a few cars have 2 or 16 cylinders. This probably is because 2 cylinder engines are too outdated and 16 cylinder 
+                engines are too advanced to be produced at the moment.</li>                           
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/numcars_by_emnorm_wo.png" alt="Number of Cars By Emission Norm">
+        <div class="info">
+          <h2>Number of Cars by Emission Norm</h2>
+          <p>
+            <ul>
+              <li>Most cars follow the BS IV Emission Norm, followed by BS VI and BS III by a large margin.</li>
+              <li>BS III cars were being produced largely in previous years, but due to advanced technology BS IV, BS VI cars are also 
+                being produced.</li>
+              <li>BS VI cars are being increasingly produced and in a few years, they might become the next norm.</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Gears</h1>
+        <img src="./Images/numcars_by_gears_wo.png" alt="Number of Cars by Gears">
+        <div class="info">
+          <h2>Number of Cars by Gears</h2>
+          <p>
+            <ul>
+              <li>Most cars have 5 gears.</li>
+              <li>Cars with 6,7,8 gears are also being produced increasingly.</li>  
+              <li>Close to nil cars have Single Speed Reduction Gear or 7 Dual Clutch Gear.</li>                          
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Body Type</h1>
+        <img src="./Images/numcars_by_bodytype_wo.png" alt="Number of Cars by Body Type">
+        <div class="info">
+          <h2>Number of Cars by Body Type</h2>
+          <p>
+            <ul>
+              <li>Most of the cars in this dataset are SUV's.</li>
+              <li>They are followed by Sedans and Hatchbacks.</li>
+              <li>Which are followed by Coupes, MUVs and the rest but by a large margin.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/car_features_wo.png" alt="Overview of Car Features">
+        <div class="info">
+          <h2>Overview of Car Features</h2>
+          <p>
+            <ul>
+              <li>A Summary of continuous attributes in the dataset.</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Price Distribution</h1>
+        <img src="./Images/car_price_woo.png" alt="Price Distribution">
+        <div class="info">
+          <h2>Price Distribution</h2>
+          <p>
+            <ul>
+              <li>Most of the cars have prices less than Rs. 40,00,000</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Make and Body Style</h1>
+        <img src="./Images/numcars_by_makebodystyle_wo.png" alt="Number of Cars by Make and Body Style">
+        <div class="info">
+          <h2>Number of Cars by Make and Body Style</h2>
+          <p>
+            <ul>
+              <li>Maruti Suzuki produces models of various Body Types like SUVs, Coupes, Convertibles etc.</li>
+              <li> Maruti Suzuki produces most Hatchbacks followed by Sedan.</li>
+              <li> Mahindra produces most SUVs. It produces almost double the number of SUVs than Tata and Hyundai.</li>
+              <li> Very few Coupes are produced by the top car production companies.</li>                     
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Make and Type</h1>
+        <img src="./Images/numcars_by_maketype_wo.png" alt="Number of Cars by Make and Type">
+        <div class="info">
+          <h2>Number of Cars by Make and Type</h2>
+          <p>
+            <ul>
+              <li>Maruti Suzuki produces most Automatic cars. It also produces the most cars.</li>  
+              <li> Maruti Suzuki produces about 300% more Automatic cars than Hyundai, Mahindra, Tata and Toyota.</li>                        
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Number of Cars by Power</h1>
+        <img src="./Images/numcars_by_power_wo.png" alt="Number of Cars by Power">
+        <div class="info">
+          <h2>Number of Cars by Power</h2>
+          <p>
+            <ul>
+              <li>The plot is distributed almost about 100 HP.</li>
+              <li>The mean, median and mode are all close to 100 HP. This suggests that most vehicles in this dataset have power 
+                close to 100 HP.</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/cars_corr_matrix_wo.png" alt="Correlation Coefficient Matrix">
+        <div class="info">
+          <h2>Correlation Coefficient Matrix</h2>
+          <p>
+            <ul>
+              <li>We observe that Price shows strong positive correlation with Engine Size, Cylinders, Fuel Tank Capacity, Length, 
+                Width, Power, Kerb Weight, Number of Airbags and Wheelbase.</li> 
+              <li> Price is negatively correlated with Mileage, Seating Capacity, Ground Clearance and Height.</li>      
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/cars_size_power_price_weight_wo.png" alt="Cars Price with Power, Size, Weight with Outliers">
+        <div class="info">
+          <h2>Car Price vs Power, Kerb Weight and Size with Outliers</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/cars_size_power_price_weight_woo.png" alt="Cars Price vs specs without Outliers">
+        <div class="info">
+          <h2>Car Price vs Car Specs without Outliers</h2>
+          <p>
+            <ul>
+              <li>Price seems linearly dependent on Power and shows slight linear dependency on other attributes 
+                for considerable samples.</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/cars_weight_price.png" alt="Price vs Kerb Weight">
+        <div class="info">
+          <h2>Price vs Kerb Weight</h2>
+          <p>
+            <ul>
+              <li>Price and Kerb weight show a linear relationship till 2,000,000 INR for price.</li>
+              <li>The slope is high.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Power vs Price</h1>
+        <img src="./Images/cars_power_price.png" alt="Price vs Power">
+        <div class="info">
+          <h2>Power vs Price</h2>
+          <p>
+            <ul>
+              <li>Power and Price exhibit a linear dependency.</li>              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Engine Size vs Price</h1>
+        <img src="./Images/disp_vs_price.png" alt="Engine Size vs Price">
+        <div class="info">
+          <h2>Engine Size vs Price</h2>
+          <p>
+            <ul>
+              <li>Engine Size and Price are linearly related till 40,00,000 INR Price.</li>  
+              <li>The linear dependency slowly dies down.</li>            
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Price Distribution without Outliers</h1>
+        <img src="./Images/price_dist_woo.png" alt="Price Distribution without Outliers">
+        <div class="info">
+          <h2>Price Distribution without Outliers</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Price Distribution without Outliers</h1>
+        <img src="./Images/price_hist_woo.png" alt="Price Distribution without Outliers">
+        <div class="info">
+          <h2>Price Distribution without Outliers</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Violin Plot for Price without Outliers</h1>
+        <img src="./Images/price_violinplot.png" alt="Price Violin Plot">
+        <div class="info">
+          <h2>Violin Plot for Price without Outliers</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/wheelbase_dist.png" alt="Wheelbase Distribution Plot">
+        <div class="info">
+          <h2>Wheelbase(in mm) Distribution Plot</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/cars_bodysize_woo.png" alt="Price vs Car Dimensions">
+        <div class="info">
+          <h2>Price and Dimensions</h2>
+          <p>
+            <ul>
+              <li>It can be seen that Price seems linearly dependent on Length and Width in a certain span.</li>
+              <li>The slope for both seems high</li>
+              <li>We conclude from the previous few graphs that Price is linearly dependent on Length, Width 
+                but it is not dependent on height in any way.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Price vs Dimensions and Kerb Weight</h1>
+        <img src="./Images/bodyweight_price_woo.png" alt="Price vs Dimensions and Weight">
+        <div class="info">
+          <h2>Distribution of Price with Kerb Weight and car dimensions</h2>          
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/meanprice_by_bodytype.png" alt="Mean Price by Body Type">
+        <div class="info">
+          <h2>Mean Price by Body Type</h2>
+          <p>
+            <ul>
+              <li>Sports cars have the highest mean, exceeding second highest mean by about 250%.</li>
+              <li>Coupe and Convertible cars have the next highest mean.</li>
+              <li>Hatchback and Crossover cars have the lowest mean.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Kerb Weight Distribution by Make</h1>
+        <img src="./Images/weight_by_make.png" alt="Weight by Make">
+        <div class="info">
+          
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Kerb Weight Distribution by Body Type</h1>
+        <img src="./Images/weight_by_bodytype.png" alt="Weight by Body Type">
+        <div class="info">
+          <h2>Weight by Body Type</h2>
+          <p>
+            <ul>
+              <li>Hatchbacks are the lighest cars with lowest mean Kerb Weight.</li>
+              <li>Sports cars have the highest mean Kerb Weight.</li>
+              <li>SUVs are highly spread over Kerb Weight.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Kerb Weight Distribution</h1>
+        <img src="./Images/weight_dist.png" alt="Kerb Weight Distribution">
+        <div class="info">          
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Power Distribution by Body Type</h1>
+        <img src="./Images/power_by_bodytype.png" alt="Power by Body Type">
+        <div class="info">
+          <h2>Power by Body Type</h2>
+          <p>
+            <ul>
+              <li>Couple & Convertibles have some of the highest mean Power.</li> 
+              <li> Hatchbacks and Crossovers have the least mean Power</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Power Distribution by Brand</h1>
+        <img src="./Images/power_by_make.png" alt="Power by Make">
+        <div class="info">
+          <h2>Power by Brands</h2>
+          <p>
+            <ul>
+              <li>Companies like Lamborghini, Bentley, Ferrari, Aston Martin, Porsche and Bugatti produce cars 
+                  with the highest mean Power.</li> 
+              <li> Tata, Datsun, Ford and Fiat cars are some companies with lowest mean Power.</li> 
+              <li> Maruti Suzuki produces cars with a large spread in Power (outliers).</li>                       
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Engine Size by Brand</h1>
+        <img src="./Images/enginesize_by_make.png" alt="Engine Size by Make">
+        <div class="info">
+          <h2>Engine Size by Brand</h2>
+          <p>
+            <ul>
+              <li>Bugatti has the highest engine size.</li> 
+              <li>It is followed by Lamborghini, Bentley, Ferrari and Aston Martin.</li> 
+              <li>Some of the brands with least engine size are Bajaj and Datson.</li> 
+              <li>Rest cars have close engine sizes.</li>                         
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Engine Size by Body Type</h1>
+        <img src="./Images/enginesize_by_bodytype.png" alt="Engine Size by Body Type">
+        <div class="info">
+          <h2>Engine Size by Body Type</h2>
+          <p>
+            <ul>
+              <li>Sports cars have the highest mean engine size.</li>    
+              <li>Hatchbacks and Crossovers have the least mean engine sizes.</li>    
+              <li>SUVs are available in various engine sizes.</li>    
+              <li>Convertibles have a large spread.</li>                    
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/engine_size_by_fueltype.png" alt="Engine Size by Fuel Type">
+        <div class="info">
+          <h2>Engine Size by Fuel Type</h2>
+        </div>
+      </div> 
+
+      <div class="slide">
+        <h1>Price by Body Type with Outliers</h1>
+        <img src="./Images/price_by_bodytype.png" alt="Price by Body Type">
+        <div class="info">
+          <h2>Price Distribution by Body Type with Outliers</h2>
+          <p>
+            <ul>
+              <li>Sports cars are the most expensive cars. They have a huge spread, so they are available in 
+                several prices. Even then they have the highest mean Price. </li>     
+                <li> Hatchbacks, Crossovers and Pickups have the least mean Price.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Price by Body Type without Outliers</h1>
+        <img src="./Images/price_by_bodytype_woo.png" alt="Price by Body Type without Outliers">
+        <div class="info">
+          <h2>Price Distribution by Body Type without Outliers</h2>
+          <p>
+            <ul>
+              <li>After removing the outliers, we notice that Sports cars have vanished. </li>    
+              <li>SUVs are available in several prices from some of the highest to lowest. </li>    
+              <li>Coupes and convertibles come after Sports cars in terms of Price.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Price Distribution by Brand with Outliers</h1>
+        <img src="./Images/price_by_make.png" alt="Price by Make">
+        <div class="info">
+          <h2>Price by Make</h2>
+          <p>
+            <ul>
+              <li>Bugatti makes the most expensive cars.</li>
+              <li> It is followed by other luxury cars brands like Lamborghini, Bentley, Ferrari and 
+                Aston Martin.</li>
+              <li> Maruti Suzuki produces cars with several prices. It covers a large price range.</li>
+              
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Price Distribution by Make without Outliers</h1>
+        <img src="./Images/price_by_make_woo.png" alt="Price by Make excluding Outliers">
+        <div class="info">
+          <h2>Price by Make excluding Outliers</h2>
+          <p>After removing the outliers, we observe that :
+            <ul>
+              <li>Next costliest cars are Jaguar, BMW Land Rocer, Porsche and Maserati.</li>
+              <li> Companies like Hyundai, Toyota, Nissan, Volkswagen, Ford, Mahindra etc. 
+                are low priced car brands. </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/power_mileage.png" alt="Mileage vs Power jointplot">
+        <div class="info">
+          <h2> Examining the relationship between Power and Mileage</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/mlg_power_by_bodytype_woo.png" alt="Mileage vs Power by Body Type">
+        <div class="info">
+          <h2>Mileage vs Power by Body Type</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/mlg_power_by_make_woo.png" alt="Mileage vs Power by Make">
+        <div class="info">
+          <h2>Mileage vs Power by Make</h2>
+          <p>
+            <ul>
+              <li>
+                It can be seen from the plot that Mileage and Power are negatively correlated.
+                As Power increases, Mileage decreases and vice versa.
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/price_power.png" alt="Price Power jointplot">
+        <div class="info">
+          <h2>Price vs Power</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Car Specifications with Price</h1>
+        <img src="./Images/carspecs_price_woo.png" alt="Car Specs with Price">
+        <div class="info">          
+          <h2>
+            Distribution of Price with respect to certain car specifications.
+          </h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/mlg_bodytype.png" alt="Mean Mileage by Body Type">
+        <div class="info">
+          <h2>Mean Mileage by Body Type</h2>
+          <p>
+            <ul>
+              <li>Coupes have the highest mean mileage.</li>
+              <li>
+                They are followed by Crossover, Hatchback, Sedan etc but by a large margin.
+              </li>
+              <li>All the body types except Coupes have similar mean Mileage.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/mileage_fueltype_woo.png" alt="Mileage Fuel Type jointplot">
+        <div class="info">
+          <h2>Mileage by Fuel Type</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/mlg_by_fueltype.png" alt="Mileage by Fuel Type">
+        <div class="info">
+          <h2>Mileage by Fuel Type</h2>
+          <p>
+            <ul>
+              <li>It is clear from the plot that Mileage does not depend upon Fuel Type</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/topcars_by_brand.png" alt="Top Cars by Brand">
+        <div class="info">
+          <h2>Top Cars by Brand</h2>
+          <p>Most cars in this dataset are produced by the following companies:
+            <ol>
+              <li>Maruti Suzuki</li>
+              <li>Hyundai</li>
+              <li>Mahindra</li>
+              <li>Tata</li>
+              <li>Toyota</li>
+            </ol>
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/carsales_by_brand.png" alt="Car Sales by Brand">
+        <div class="info">
+          <h2>Car Sales by Brand</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h1>Top Cars by Body Type</h1>
+        <img src="./Images/topcars_by_bodytype.png" alt="Top Cars by Body Type">
+        <div class="info">
+          <h2>Top Cars by Body Type</h2>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="./Images/carsales_by_bodytype.png" alt="Car Sales by Body Type">
+        <div class="info">
+          <h2>Car Sales by Body Type</h2>
+        </div>
+      </div>
+      
+      <div class="navigation">
+        <i class="fas fa-chevron-left prev-btn"></i>
+        <i class="fas fa-chevron-right next-btn"></i>
+      </div>
+      <div class="navigation-visibility">
+        <div class="slide-icon active"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript"></script>
+    <script src="./analysis.js"></script>
+    
+  </body>
+</html>
