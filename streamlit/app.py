@@ -107,9 +107,6 @@ else:
     for i in range(n):
         weights[i] = pref_order[cols[i]]
 
-
-cars_info = pd.read_csv('final_clean_cardataset.csv', index_col=0)
-
 if len(pref) < m:
     if budget <= 0:
         st.write('Please input your budget in INR!')
