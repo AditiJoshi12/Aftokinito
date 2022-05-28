@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<title>Aftokinito</title>
+		<link rel = "icon" href='./frontend/img/home.png' style="border-radius: 5px;" type='image/x-icon'>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./frontend/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./frontend/main.css">
+
+	</head>
+	
+	<body>
+	
+		<nav class="navbar navbar-expand-md" style="overflow:visible ;">
+			<a class="navbar-brand" href="./index.html">Home</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" 
+			data-target="#main-navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="frontend/analysis.html" target="_blank">Analysis</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" 
+						href="https://share.streamlit.io/aditijoshi12/testingstreamlit/main/mcdm.py"
+						target="_blank"">Cars for You!</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<header class="page-header header container-fluid">
+			<div class="overlay"></div>
+			<div class="description">
+			</div>
+		</header>
+		
+		<div class="container features">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h3 class="feature-title">Data Analysis</h3>
+					<img src="frontend/img/da.jpg" style="border-radius: 5px;" class="img-fluid">
+					<p>
+						<ul>
+							<li>
+								Focus on determining the relationship between various automotive industry 
+								related parameters.
+							</li>
+							<li>
+								Attempting to gather useful information and draw conclusions.
+							</li>
+							<li>
+								Head over to the Analysis tab on top right and get to know more!
+							</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h3 class="feature-title">Cars for You!</h3>
+					<img src="frontend/img/cfy.jpg" style="border-radius: 5px;" class="img-fluid">
+					<p> 
+						<ul>
+							<li>
+								Priority Based Decision Support System.
+							</li>
+							<li>
+								Recommend Car models depending upon your budget, priorities, and preferred fuel
+								type. The algorithm is based on Multiple Criteria Decision Making. 
+							</li>
+							<li>
+								Head over to 'Cars for You!' on the top right to check it out for yourself!
+							</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">	
+					<h3 class="feature-title">Get in Touch!</h3>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Name" name="">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email Address" name="email">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="4"></textarea>
+					</div>
+					<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div> 
+		</div>
+				
+		<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="card col-lg-3 col-md-3 col-sm-4 text-center" style="background: none;">
+						<img class="card-img-top rounded-circle" 
+						src="frontend/img/me.jpeg" style="padding-top: 10px; background: none;" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Aditi Joshi</h4>
+							<p class="card-text">ML/DS/AI Enthusiast</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-12" >
+						<h6 class="text-uppercase font-weight-bold" style="align-items: center;" >About</h6>
+						<p style="align-self: center;"> 
+						<br/> Hi! I am Aditi, a Sophomore at IIT Guwahati, studying Engineering Physics with
+						a minor in Mathematics.
+						<br/>I am a fast learner and an avid reader, fond of listening to classical music and 
+						taking long calming walks. 
+						<br/>I enjoy learning new languages, be they coding or foreign! I also like analyzing 
+						the vast amount of data around us and finding meaningful inferences which might help us.
+						</p>
+					</div>
+				
+				<div id="Contact" class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>
+					<br/><a href="mailto: adp02.joshi@gmail.com" target="_blank">adp02.joshi@gmail.com</a>
+					<br/>+ 91 9404155941
+					<br/><a href="https://github.com/AditiJoshi12" target="_blank">Github</a>
+					<br/><a href="https://www.kaggle.com/aditijoshi12" target="_blank">Kaggle</a>
+					<br/><a href="https://www.linkedin.com/in/aditi-joshi-18802b203/" target="_blank">LinkedIn</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="./frontend/jquery-3.5.1.min.js"></script>
+		<script src="./frontend/bootstrap/js/bootstrap.min.js"></script>
+		<script src="./frontend/main.js"></script>
+    
+		<div id="demo-modal" class="modal fade">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!--<img class="img-fluid" src="img/da.jpg" alt="modal image">-->
+						<button type="button" class="close" data-dismiss="modal" aria-label="close">
+							<span>x</span>
+						</button>
+					</div>
+					<div class="modal-body text-center">
+						<h3 style="align-self: center;color:aliceblue">Welcome to Aftokinito!!</h3>
+						<p style="align-self: center;color:aliceblue;"> 
+							<br/> The Automotive Industry in India is 4th largest as of 2021. In 2022, it became
+							4th largest in terms of valuation. Let us tap onto the data in Indian Automotive 
+							Industry to understand more about the current trends in automobile industry.							
+							This project demonstrates how the Automotive Industry could harness data to 
+							take informed decisions.							
+							<br/> To demonstrate the use of data analytics in identifying most popular car 
+							specification combination :
+							<ul style="text-align: left;color: aliceblue;">
+								<li>Brand</li>
+								<li>Model</li>
+								<li>Engine Type</li>
+								<li>Fuel Type, etc.</li>
+							</ul>
+							</p>
+						<p style="align-self: left;color:aliceblue">
+							Scroll down to find the description of various tabs which are on the top!
+							<br/> Scroll to the bottom to find out more about me :)
+						</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
