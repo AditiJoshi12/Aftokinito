@@ -8,6 +8,7 @@ Priority Based Decision Support System.
 - Clone this repository by
 - Download the repository
 - Double click on index.html
+- pip install requirements.txt
 - To run the Priority Based Decision Support System, 
 - - cd streamlit
 - - streamlit run app.py
