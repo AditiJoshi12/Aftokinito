@@ -10,5 +10,5 @@ Priority Based Decision Support System.
 - Double click on index.html
 - pip install requirements.txt
 - To run the Priority Based Decision Support System, 
-- - cd streamlit
-- - streamlit run app.py
+  - ```cd streamlit```
+  - ```streamlit run app.py```
