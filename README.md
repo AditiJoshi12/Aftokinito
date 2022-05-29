@@ -37,7 +37,28 @@ P.S. Aftokinito is Car in Greek :)
 
 ## Features
 
-- This is the landing/home page. ![Home Page Image 1](readme/home1.png)
+1. This is the landing/home page. 
+ - ![Home Page Image 1](readme/home4.png)
+ - ![Home Page Image 2](readme/home2.png)
+2. After clicking on the **Analysis** Tab, you are redirected here:
+  - ![Analysis Home Page](readme/analysis0.jpg)
+  - Navigate using side arrows(next/previous) ![Analysis Graphs](readme/analysis1.jpg) ![Analysis Graphs](readme.analysis2.jpg)
+3. Click on the ```here``` hyperlink to see a data report of the given dataset
+  - ![Here](readme/homerep.jpg)
+  - Univariate Analysis of data: 
+    - Graphs, unique values for categorical data, data statistics for numerical data: ![Report 1](readme/report1.jpg)
+    - Bivariate Analysis: ![Report 2](readme/report2.jpg)
+4. Priority Based Decision Support System  
+  - ![Home Page](readme/dsc1.jpg)
+  - We can select specific columns which we want to see : ![Columns](readme/app22.jpg)
+  - We can filter the data based upon our preference: 
+    - For categorical data: ![Categorical](readme/app32.jpg)
+    - For numerical data: ![Numeric](readme/app4.jpg)
+  - Input your budget in INR ![Budget](readme/app52.jpg)
+  - Input your preference order. Make sure to select all the options in the dropdown. ![Preference Order](readme/app62.jpg) ![Pref Order](readme/app7.jpg)
+  - You can also select your desired Fuel Type and filter accordingly. ![Fuel Type](readme/app8.jpg)
+    - Choose 'Any' in case you want to see car models of all fuel types. ![Any Fuel Type](readme/app9.jpg)
+  - You can download the car data in rank sorted order in csv format by clicking on the 'Download Link' button. ![Download](readme/app10.jpg) 
 
 
 ## Instructions to run this locally:
