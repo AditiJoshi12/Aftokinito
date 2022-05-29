@@ -18,12 +18,27 @@ Data Analysis and Visualization.
 
 Priority Based Decision Support System using Randomized Multiple Criteria Decision Making.
 
-This is the Challenge 2 : Data Analysis in Automotive Industry of 
+This is the Challenge 2 : Data Analysis in Automotive Industry of Microsoft Engage 2022 Mentorship Program. 
+
+The Automotive Industry in India is 4th largest as of 2021. In 2022, it became 4th largest in terms of valuation. Let us tap onto the data in Indian Automotive Industry to understand more about the current trends in automobile industry. This project demonstrates how the Automotive Industry could harness data to take informed decisions.
+
+To demonstrate the use of data analytics in identifying most popular car specification combination : Brand, Model, Engine Type, Fuel Type, etc.
+
+Data Analysis and Visualization:
+- Focus on determining the relationship between various automotive industry related parameters.
+- Attempting to gather useful information and draw conclusions.
+
+Cars for You!
+- Priority Based Decision Support System.
+- Recommend Car models depending upon your budget, priorities, and preferred fuel type.
+- The algorithm is based on Randomized Multiple Criteria Decision Making.
+
+P.S. Aftokinito is Car in Greek :)
 
 ## Features
 
 ## Instructions to run this locally:
-- Clone this repository by ```git clone https://github.com/AditiJoshi12/Aftokinito.git```
+- Clone this repository: ```git clone https://github.com/AditiJoshi12/Aftokinito.git```
 - ```cd ./Aftokinito```
 - Double click on index.html to go to the landing page.
 - If you want to run the Decision Support System: 
@@ -62,7 +77,7 @@ This is the Challenge 2 : Data Analysis in Automotive Industry of
 
 ## Future Enhancements
 
-
+- Performing Automated Exploratory Data Analysis on the uploaded files.
 
 ### Contact
 
