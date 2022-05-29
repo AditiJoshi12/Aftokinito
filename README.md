@@ -38,11 +38,11 @@ P.S. Aftokinito is Car in Greek :)
 ## Features
 
 1. This is the landing/home page. 
- - ![Home Page Image 1](readme/home4.png)
+ - ![Home Page Image 1](readme/home4.jpg)
  - ![Home Page Image 2](readme/home2.png)
 2. After clicking on the **Analysis** Tab, you are redirected here:
   - ![Analysis Home Page](readme/analysis0.jpg)
-  - Navigate using side arrows(next/previous) ![Analysis Graphs](readme/analysis1.jpg) ![Analysis Graphs](readme.analysis2.jpg)
+  - Navigate using side arrows(next/previous) ![Analysis Graphs](readme/analysis1.jpg) ![Analysis Graphs](readme/analysis2.jpg)
 3. Click on the ```here``` hyperlink to see a data report of the given dataset
   - ![Here](readme/homerep.jpg)
   - Univariate Analysis of data: 
@@ -105,4 +105,4 @@ P.S. Aftokinito is Car in Greek :)
 
 ### Contact
 
-Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/aditi-joshi-18802b203/)
+Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/aditi-joshi-18802b203/) or mail to me at ```adp02.joshi@gmail.com```.
