@@ -37,7 +37,7 @@ P.S. Aftokinito is Car in Greek :)
 
 ## Features
 
-- <img width="960" alt="image" src="https://user-images.githubusercontent.com/88262192/170873639-07229d56-0381-45c3-b243-2a3a0168eac1.png">
+- This is the landing/home page. ![Home Page Image 1](readme/home1.png)
 
 
 ## Instructions to run this locally:
